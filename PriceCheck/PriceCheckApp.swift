@@ -10,7 +10,7 @@ import SwiftUI
 struct PriceCheckApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            AppView()
         }
     }
 }

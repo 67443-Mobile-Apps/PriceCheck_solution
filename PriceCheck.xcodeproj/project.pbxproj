@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E74B455D2533F327002178E8 /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E74B455C2533F327002178E8 /* AppView.swift */; };
+		E74B45602533F407002178E8 /* ScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E74B455F2533F407002178E8 /* ScannerView.swift */; };
 		E767C2CF25326F0F00821F57 /* SectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E767C2CE25326F0F00821F57 /* SectionView.swift */; };
 		E767C2D32532A4DD00821F57 /* ScanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E767C2D22532A4DD00821F57 /* ScanView.swift */; };
 		E767C2D62532AAAE00821F57 /* ScanDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E767C2D52532AAAE00821F57 /* ScanDetailsView.swift */; };
@@ -21,6 +23,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E74B455C2533F327002178E8 /* AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
+		E74B455F2533F407002178E8 /* ScannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerView.swift; sourceTree = "<group>"; };
 		E767C2CE25326F0F00821F57 /* SectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionView.swift; sourceTree = "<group>"; };
 		E767C2D22532A4DD00821F57 /* ScanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanView.swift; sourceTree = "<group>"; };
 		E767C2D52532AAAE00821F57 /* ScanDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanDetailsView.swift; sourceTree = "<group>"; };
@@ -101,6 +105,8 @@
 				E767C2CE25326F0F00821F57 /* SectionView.swift */,
 				E767C2D22532A4DD00821F57 /* ScanView.swift */,
 				E767C2D52532AAAE00821F57 /* ScanDetailsView.swift */,
+				E74B455C2533F327002178E8 /* AppView.swift */,
+				E74B455F2533F407002178E8 /* ScannerView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -186,12 +192,14 @@
 			files = (
 				E767C2D32532A4DD00821F57 /* ScanView.swift in Sources */,
 				E7D5EE082531EA2500C17A92 /* ContentView.swift in Sources */,
+				E74B455D2533F327002178E8 /* AppView.swift in Sources */,
 				E7D5EE3725325A7000C17A92 /* Location.swift in Sources */,
 				E767C2CF25326F0F00821F57 /* SectionView.swift in Sources */,
 				E7D5EE062531EA2500C17A92 /* PriceCheckApp.swift in Sources */,
 				E7D5EE182531EBB000C17A92 /* PriceScan.swift in Sources */,
 				E767C2D62532AAAE00821F57 /* ScanDetailsView.swift in Sources */,
 				E7D5EE342532599C00C17A92 /* Helper.swift in Sources */,
+				E74B45602533F407002178E8 /* ScannerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
