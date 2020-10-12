@@ -9,6 +9,13 @@ import SwiftUI
 struct ScannerView: View {
     var body: some View {
         Text("batlh bIHeghjaj")
+          .font(.headline)
+          .fontWeight(.black)
+//          .background(Color.green)
+//          .foregroundColor(.white)
+          .padding(15)
+          .background(Color.green)
+          .foregroundColor(.white)
     }
 }
 
