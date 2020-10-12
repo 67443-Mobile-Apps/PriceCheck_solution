@@ -10,16 +10,14 @@ struct ScanView: View {
   var scan: PriceScan
   
   var body: some View {
-    NavigationLink(
-      destination: ScanDetailsView(scan: scan),
-      label: {
-        HStack(alignment: .bottom, spacing: /*@START_MENU_TOKEN@*/nil/*@END_MENU_TOKEN@*/, content: {
-          Text(scan.item)
-          Spacer()
-          Text(Helper.asCurrency(scan.price))
-            .fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
-        }).padding()
-      })
+    
+    HStack(alignment: .bottom, spacing: /*@START_MENU_TOKEN@*/nil/*@END_MENU_TOKEN@*/, content: {
+      Text(scan.item)
+      Spacer()
+      Text(Helper.asCurrency(scan.price))
+        .fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
+    }).padding()
+    
   }
 }
 
